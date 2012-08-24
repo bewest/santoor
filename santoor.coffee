@@ -1,10 +1,11 @@
-class Santoor
+class @Santoor
 
   constructor: ->
-    @name = 1;
+    @name = 1
 
 
-class SantoorSong extends Backbone.View
+@SantoorSong = Backbone.View.extend(
 
   render: ->
     $("#main").html("Ritesh")
+)
